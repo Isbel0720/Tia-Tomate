@@ -5,61 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,700&display=swap" rel="stylesheet">
+    <!--mi estilo-->
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Tía | Tomate </title>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img class="logo_tomate" src="assets/img/logo_header.png" alt="logo-principal">
-        </div>
+        <header class="header">
+            <div class="header__logo">
+            <img class="header__logo__img" src="assets/img/logo_header.png" alt="logo_img">
+            </div>
         </header>
         
-        <article>
-            <h1 class="primer-titulo" De nuestro Cariño A TU MESA ></h1>
-        </article>
-            
-        <article>
-        <div class="section-1">
-            <img class="tomates-1" src="assets/img/about-1.png" alt="tomates-chicos">
-            <h3>Tomate 100% orgánicos</h3>
-            <p> En Tía Tomate estamos coprometidos con tu salud y la de tu familia de modo que probarás tomates ricos sin sabor artífical.</p>
-        </div>
-    </article>
-
-    <article>
-        <div class="section-2">
-            <img class="tomates-2" src="assets/img/about-2.png" alt="tomates-medianos">
-            <h3>Desde Limache con amor</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum doloribus, itaque ipsum iste rerum accusamus velit reiciendis minima officia deserunt debitis quaerat repudiandae veritatis ut minus tempore asperiores at amet.</p>
-        </div>
-    </article>
-    
-    <section class="container">
-        <div class="dueña-1">
-            <img class="señora" src="assets/img/about-3.png" alt="persona-1">
-            <h2>Javiera Kunstmann</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, doloribus quos vitae quasi fugiat expedita minima porro accusamus temporibus. Provident veniam commodi cum odio facere, pariatur deserunt necessitatibus omnis quo?</p>
-        </div>
-
-        <div class="dueño-2">
-            <img class="señor" src="assets/img/about-4.png" alt=""persona-2>
-            <h2>Roberto Pacheco</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sint exercitationem, autem laudantium dolore magni repellat itaque fugit! Doloribus praesentium autem odio! Veritatis maiores dicta numquam natus ex. Dicta, a?</p>
+    <section class="main">
+        <div class="main__container">
+            <h1 class="main__container__titulo1">De nuestro Cariño</h1>
+            <h1 class="main__container__titulo2">A TU MESA</h1>
         </div>
     </section>
 
-    <form class="contacto">
-        <div class="container_form">
-            <h1>¿Tomates para tu negocio?</h1>
-            <button type="button"> CLICK AQUÍ</button>
+    <article class="article">
+        <div class="article__tomates1">
+            <img class="article__tomates1__img" src="assets/img/about-1.png" alt="tomates-organicos">
+            <h3 class="article__tomates1__titulo">Tomate 100% orgánicos</h3>
+            <p class="article__tomates1__texto"> En Tía Tomate estamos coprometidos con tu salud y la de tu familia de modo que probarás tomates ricos sin sabor artífical. 
+                    Para darle vida a nuestros productos usamos materias primas orgánicas y
+                    que estén en completo equilibrio con la naturaleza. Así que al comprar
+                    cualquier tipo de tomate con nosotros te asegurarás de que comeras la mejor
+                    calidad de tomates limachinos.</p>
+        </div>
+        <div class="article__tomates2">
+            <img class="article__tomates2__img" src="assets/img/about-2.png" alt="tomates-limache">
+            <h3 class="article__tomates2__titulo">Desde Limache con amor</h3>
+            <p class="article__tomates2__texto">Los tomates que están a punto de comprar son nacidos y criados en una de las mejores
+                    zonas para la producción de tomates de Chile. El proceso que conlleva criar estos Tomates
+                    toma al rededor de tres meses con muchos cariños y cuidados.
+                  Los tomates toman todos los nutrientes de esta hermosa tierra para que luego tú los disfrutes en cualquier ocasión.</p>
+        </div>
+    </article>
+
+    <section class="nosotros">
+            <h1 class="nosotros__titulo">Nosotros</h1>
+        <div class="nosotros__javiera">
+            <img class="nosotros__javiera__img" src="assets/img/about-3.png" alt="Javiera">
+            <h2 class="nosotros__javiera__titulo">Javiera Kunstmann</h2>
+            <p class="nostros__javiera__texto">Javiera es la orgullosa dueña de Tía Tomate. 
+                Nacida y criada en Limache se siente tan gusto aquí como los tomates que cosecha. 
+                Ella es la encargada administrativa de Tía Tomate y estrá muy a gusto que la contactes para probar la mejor calidad de tomates de todo Limache. 
+                Javiera y su marido llevan más de 15 años en el rubro ofreciendo la mejor calidad en tomates y desde el 2015 comezaron con la producción de tomates orgánicos limachinos.</p>
+        </div>
+
+        <div class="nosotros__roberto">
+            <img class="nosotros__roberto__img" src="assets/img/about-4.png" alt="Roberto">
+            <h2 class="nosotros__roberto__titulo">Roberto Pacheco</h2>
+            <p class="nosotros__roberto__texto">Roberto es el marido de Javiera. Él es el encargado de darle vida a los tomates, 
+                usando su vasta experiencia en la agricultura ha sabido seleccionar las mejores cepas de tomats para su cría y cosecha.</p>
+        </div>
+    </section>
+
+    <form class="formulario">
+            <h1 class="formulario__button">¿Tomates para tu negocio?</h1>
+            <div>
+            <button class="formulario__button__btn" type="button">CLICK AQUÍ</button>
         </div>
     </form>
 
-    <footer>
-        <div class="container_footer">
-            <img class="logo-final" src="assets/img/logo_footer.png" alt="Tia Tomate">
-        </div>
+    <footer class="final">
+            <img class="final__img" src="assets/img/logo_footer.png" alt="Tia Tomate">
+
     </footer>
 </body>
 </html>

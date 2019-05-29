@@ -1,0 +1,73 @@
+.main{
+    background-color: $jelly_bean;
+}
+
+.main__container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.main__container__titulo1{
+text-align: center;
+color: $white;
+font-weight: $extra-light;
+font-size: $large;
+}
+
+.main__container__titulo2{
+    text-align: center;
+    color: $white;
+    font-weight: $bold;
+    font-size: $x-large;
+}
+
+.nosotros__titulo{
+    background-color: $jelly_bean;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-weight: $bold;
+    font-size: $x-large;
+}
+
+.nosotros__javiera__img{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 80%;
+    text-align: center;
+}
+
+.nosotros__javiera__titulo{
+    text-align: center;
+    font-weight: $medium;
+    font-size: $large;
+    color: $granite_gray;
+}
+
+.nostros__javiera__texto{
+    text-align: center;
+    font-weight: $extra-light;
+    font-size: $large;
+    color: $granite_gray;
+}
+
+.nosotros__roberto__img{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 80%;
+    text-align: center;
+}
+
+.nosotros__roberto__titulo{
+    text-align: center;
+    font-weight: $medium;
+    font-size: $large;
+    color: $granite_gray;
+}
+
+.nosotros__roberto__texto{
+    text-align: center;
+    font-weight: $extra-light;
+    font-size: $large;
+    color: $granite_gray;
+}

@@ -1,0 +1,54 @@
+.article__tomates1{
+padding: 30px;
+background-color: $quick-silver;
+font-weight: $medium;
+}
+
+.article__tomates1__img{
+    width: 85%;
+    text-align: center;
+    padding: 20px;
+}
+
+.article__tomates1__titulo{
+    text-align: center;
+    font-size: large;
+    color: $white;
+}
+
+.article__tomates1__texto{
+    text-align: center;
+    font-size: $medium;
+    color: $white;
+    font-weight: $extra-light;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.article__tomates2{
+    padding: 30px;
+    background-color: $white;
+    font-weight: $medium;
+}
+
+.article__tomates2__img{
+    width: 85%;
+    text-align: center;
+    padding: 20px;
+}
+
+.article__tomates2__titulo{
+    text-align: center;
+    font-size: large;
+    color: $granite-gray;
+    padding: 30px;
+}
+
+.article__tomates2__texto{
+    text-align: center;
+    font-size: $medium;
+    color: $granite-gray;
+    font-weight: $extra-light;
+    padding-left: 20px;
+    padding-right: 20px;
+}
