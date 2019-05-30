@@ -1,42 +1,42 @@
 .main{
     background-color: $jelly_bean;
 }
-
 .main__container{
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-
 .main__container__titulo1{
 text-align: center;
 color: $white;
 font-weight: $extra-light;
 font-size: $large;
 }
-
 .main__container__titulo2{
     text-align: center;
     color: $white;
     font-weight: $bold;
-    font-size: $x-large;
+    font-size: $large;
 }
-
+.nosotros{}
 .nosotros__titulo{
+    color: $white;
     background-color: $jelly_bean;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     font-weight: $bold;
     font-size: $x-large;
 }
-
 .nosotros__javiera__img{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    width: 50%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-
 .nosotros__javiera__titulo{
     text-align: center;
     font-weight: $medium;
@@ -47,15 +47,23 @@ font-size: $large;
 .nostros__javiera__texto{
     text-align: center;
     font-weight: $extra-light;
-    font-size: $large;
+    font-size: $medium;
     color: $granite_gray;
+    padding-bottom: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .nosotros__roberto__img{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    width: 50%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .nosotros__roberto__titulo{
@@ -68,6 +76,9 @@ font-size: $large;
 .nosotros__roberto__texto{
     text-align: center;
     font-weight: $extra-light;
-    font-size: $large;
+    font-size: $regular;
     color: $granite_gray;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
