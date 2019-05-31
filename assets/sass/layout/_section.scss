@@ -8,21 +8,19 @@
 .main__container__titulo1{
 text-align: center;
 color: $white;
-font-weight: $extra-light;
-font-size: $large;
+font-weight: $regular;
+font-size: $x-large;
 }
 .main__container__titulo2{
     text-align: center;
     color: $white;
-    font-weight: $bold;
-    font-size: $large;
+    font-weight: $regular;
+    font-size: $x-large;
 }
-.nosotros{}
 .nosotros__titulo{
     color: $white;
     background-color: $jelly_bean;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 70px;
     text-align: center;
     font-weight: $bold;
     font-size: $x-large;
@@ -45,11 +43,9 @@ font-size: $large;
 }
 
 .nostros__javiera__texto{
-    text-align: center;
     font-weight: $extra-light;
     font-size: $medium;
     color: $granite_gray;
-    padding-bottom: 30px;
     padding-bottom: 30px;
     padding-left: 60px;
     padding-right: 60px;
@@ -74,11 +70,9 @@ font-size: $large;
 }
 
 .nosotros__roberto__texto{
-    text-align: center;
-    font-weight: $extra-light;
     font-size: $regular;
     color: $granite_gray;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-left: 60px;
     padding-right: 60px;
 }
