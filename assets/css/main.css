@@ -207,18 +207,17 @@ p {
 }
 
 .formulario__button {
-  text-align: center;
+  
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .formulario__button__btn {
+  color: #fff;
   background-color: #686963;
-  padding: 30px;
-  width: 15rem;
-  border-radius: 50%;
+  height: 70px;
+  border-radius: 20px;
   font-size: 30px;
-  font-weight: 30px;
   text-align: center;
 }
 

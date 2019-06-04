@@ -1,12 +1,10 @@
-.formulario__button{
-text-align: center;
-}
-
 .formulario__button__btn{
-    background-color: $white;
-    color: $snow;
-    width: $big-button;
-    border-radius: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+    color: $white;
+     background-color: $snow;
+     border-radius: 30px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
